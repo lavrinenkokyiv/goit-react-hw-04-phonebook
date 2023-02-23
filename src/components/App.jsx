@@ -11,6 +11,7 @@ export default function App() {
   });
   const [filter, setFilter] = useState('');
 
+  
   useEffect(() => {
     localStorage.setItem('myContacts', JSON.stringify(contacts));
   }, [contacts]);
